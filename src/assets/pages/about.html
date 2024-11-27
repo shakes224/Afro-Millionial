@@ -13,12 +13,19 @@
 </head>
 <body>
 
+  <!-- Background Video -->
+  <video autoplay muted loop class="background-video">
+    <source src="/src/assets/videos/afro_vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-overlay"></div>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"></a>
-      <!--Logo-->
-      <img src="/src/assets/images/Afro.jpeg" alt="Logo" style="height: px;">
+      <a class="navbar-brand" href="index.html">
+        <img src="/src/assets/images/Afro.jpeg" alt="Company Logo" style="height: 50px;">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,13 +35,13 @@
             <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/src/assets/pages/about.html">About</a>
+            <a class="nav-link active" href="/src/assets/pages/about.html" aria-current="page">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/src/assets/pages/services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="/src/assets/pages/contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,112 +50,112 @@
 
   <!-- About Page Content -->
   <div class="container mt-5">
-    <h1>About Us</h1>
+    <h1 class="mt-4">Our Story</h1>
     <p>Founded in 2018 by Thabiso Thebe, Afromillionial was born out of a passion for Africa's 
       development and a commitment to making a positive impact. With many years of combined experience 
       in trade, mining, agriculture, and development finance, our team brings expertise and knowledge 
       to drive business success.</p>
 
-      <h1>Our Values</h1>
-      <ol>
-        <li>
-          Africa First: We prioritize African interests and partnerships.
-        </li>
-        <li>
-          Sustainability: We integrate environmental and social responsibility into our operations.
-        </li>
-        <li>
-          Innovation: We embrace cutting-edge technologies and best practices.
-        </li>
-        <li>
-          Integrity: We operate with transparency, ethics, and accountability.
-        </li>
-        <li>
-          Collaboration: We foster strong relationships with stakeholders and communities
-        </li>
-      </ol>
+    <h1 class="mt-4">Our Values</h1>
+    <ol class="ps-3">
+      <li>Africa First: We prioritize African interests and partnerships.</li>
+      <li>Sustainability: We integrate environmental and social responsibility into our operations.</li>
+      <li>Innovation: We embrace cutting-edge technologies and best practices.</li>
+      <li>Integrity: We operate with transparency, ethics, and accountability.</li>
+      <li>Collaboration: We foster strong relationships with stakeholders and communities.</li>
+    </ol>
 
-      <h1>Our Business Activities</h1>
-      <p>Afromillionial operates across three key sectors:</p>
-      <ol>
-        <li>
-          Trade: Facilitating cross-border commerce and connecting African markets to global opportunities.
-        </li>
-        <li>
-          Mining: Exploring and extracting natural resources to fuel economic growth.
-        </li>
-        <li>
-          Agriculture: Cultivating sustainable food systems and empowering local farmers.
-        </li>
-        <li>
-          Development Finance: Providing access to capital and financial solutions for African businesses
-        </li>
-      </ol>
+    <h1 class="mt-4">Our Business Activities</h1>
+    <p>Afromillionial operates across three key sectors:</p>
+    <ol class="ps-3">
+      <li>Trade: Facilitating cross-border commerce and connecting African markets to global opportunities.</li>
+      <li>Mining: Exploring and extracting natural resources to fuel economic growth.</li>
+      <li>Agriculture: Cultivating sustainable food systems and empowering local farmers.</li>
+      <li>Development Finance: Providing access to capital and financial solutions for African businesses.</li>
+    </ol>
 
-      <h1>Our Impact</h1>
-      <p>Through our work, we aim to:</p>
-      <ol>
-        <li>Create jobs and stimulate economic growth.
-          </li>
-        <li>
-          Improve livelihoods and community well-being.
-        </li>
-        <li>
-          Promote African entrepreneurship and innovation.
-        </li>
-        <li>
-          Foster regional cooperation and integration.
-        </li>
-      </ol>
-      
+    <h1 class="mt-4">Our Impact</h1>
+    <p>Through our work, we aim to:</p>
+    <ol class="ps-3">
+      <li>Create jobs and stimulate economic growth.</li>
+      <li>Improve livelihoods and community well-being.</li>
+      <li>Promote African entrepreneurship and innovation.</li>
+      <li>Foster regional cooperation and integration.</li>
+    </ol>
+
+    <h1 class="mt-4">Leadership Team</h1>
+    <p>Meet our experienced leadership:</p>
+    <ul class="ps-3">
+      <li>Thabiso Thebe CA (SA), Founder/CEO</li>
+      <li>Dr Lucky Kaluba, Executive Director</li>
+      <li>Peter Brown Katongo, Executive Director Operations</li>
+    </ul>
+
+    <h1 class="mt-4">Partnerships</h1>
+    <p>We collaborate with:</p>
+    <ol class="ps-3">
+      <li>Governments and regulatory bodies.</li>
+      <li>International organizations and NGOs.</li>
+      <li>Local businesses and communities.</li>
+      <li>Strategic investors and partners.</li>
+    </ol>
   </div>
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Footer -->
-<footer class="bg-light text-center text-lg-start mt-5">
-  <div class="container p-4">
-    <!-- Message -->
-    <p class="lead mb-4">We make an exceptional team together. Keep it up!</p>
-
-    <!-- Footer Links -->
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Quick Links</h5>
-        <ul class="list-unstyled">
-          <li><a href="/index.html" class="text-dark">Home</a></li>
-          <li><a href="/src/assets/pages/about.html" class="text-dark">About Us</a></li>
-          <li><a href="/src/assets/pages/services.html" class="text-dark">Services</a></li>
-          <li><a href="/src/assets/pages/contact.html" class="text-dark">Contact</a></li>
-        </ul>
+  <footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <!-- Footer Links -->
+      <div class="row text-md-start text-center">
+        <!-- Quick Links -->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="/index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li><a href="/src/assets/pages/about.html" class="text-dark text-decoration-none">About Us</a></li>
+            <li><a href="/src/assets/pages/services.html" class="text-dark text-decoration-none">Services</a></li>
+            <li><a href="/src/assets/pages/contact.html" class="text-dark text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Follow Us -->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold">Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="#" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="#" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="#" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+  
+        <!-- Get in Touch -->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold">Get in Touch</h5>
+          <p class="mb-1"><strong>HEAD OFFICE: South Africa</strong></p>
+          <p class="mb-1">3 Brighton St, Midstream Estate, Olifantsfontein, 1692</p>
+          <p class="mb-1">Email: <a href="mailto:tthebe@afromillionial.co.za" class="text-dark text-decoration-none">tthebe@afromillionial.co.za</a></p>
+          <p>Phone: +27615665443</p>
+        </div>
       </div>
-
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Follow Us</h5>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-dark">Facebook</a></li>
-          <li><a href="#" class="text-dark">Twitter</a></li>
-          <li><a href="#" class="text-dark">LinkedIn</a></li>
-          <li><a href="#" class="text-dark">Instagram</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Contact</h5>
-        <p>3 Brighton St, Midstream Estate, Olifantsfontein, 1692</p>
-        <p>Email: info@yourbusiness.com</p>
-        <p>Phone: +27 12 345 6789</p>
+  
+      <!-- Regional Office -->
+      <div class="row mt-4">
+        <div class="col-lg-12">
+          <h5 class="text-uppercase fw-bold">REGIONAL OFFICE: Zambia</h5>
+          <p class="mb-1">Dr Lucky Kaluba</p>
+          <p class="mb-1">Email: <a href="mailto:kalubal@afromillionial.co.za" class="text-dark text-decoration-none">kalubal@afromillionial.co.za</a></p>
+          <p class="mb-1">Peter Brown Katongo</p>
+          <p>Email: <a href="mailto:katangop@afromillionial.co.za" class="text-dark text-decoration-none">katangop@afromillionial.co.za</a></p>
+        </div>
       </div>
     </div>
-  </div>
+  
+    <!-- Footer Bottom -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      &copy; 2024 Afro-Millennial | All Rights Reserved
+    </div>
+  </footer>
+  
 
-  <!-- Footer Bottom -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    &copy; 2024 Afro-Millennial | All Rights Reserved
-  </div>
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
